@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 //Calling WOWjs
 import WOW from "wowjs";
@@ -33,7 +33,7 @@ class App extends React.Component {
   render() {
     return (
      <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Landing />}></Route>
           <Route exact path='/product' element={<Product />}></Route>
@@ -44,7 +44,7 @@ class App extends React.Component {
           <Route exact path='/Blogs' element={<Blogs />}></Route>
           <Route exact path='/Community' element={<Community />}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
      </>
     );
   }
