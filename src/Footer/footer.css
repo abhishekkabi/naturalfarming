@@ -1,0 +1,126 @@
+/* Footer */
+footer.footer {
+    padding: 4rem 0;
+  }
+  footer.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  footer.footer p {
+    font-size: 18px;
+    color: #dcdcdc;
+  }
+  
+  .info_section {
+    background-color: #14433b;
+    color: #ffffff;
+    padding: 75px 0 10px 0;
+    display: flex;
+  }
+  
+  .info_section .row > div {
+    margin-bottom: 25px;
+  }
+  
+  .info_section h5 {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .info_section .info_contact {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .info_section .info_contact a {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .info_section .info_contact a i {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .info_section .info_contact a:hover {
+    color: #81b214;
+  }
+  
+  .info_section .info_form form input {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 7px 10px;
+  }
+  
+  .info_section .info_form form button {
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: #81b214;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  .info_section .info_form form button:hover {
+    background-color: transparent;
+    border-color: #81b214;
+    color: #81b214;
+  }
+  
+  .info_section .info_form .social_box {
+    margin-top: 25px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .info_section .info_form .social_box a {
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .info_section .info_form .social_box a:hover {
+    color: #81b214;
+  }
+  .footer_section {
+    padding: 20px;
+    background-color: #14433b;
+  }
+  
+  .footer_section p {
+    color: #fafafa;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section p a {
+    color: inherit;
+  }
+  
+  
+  .info_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  .footbox {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px 25px;
+    margin-bottom: 15px 10px;
+  }
+  
