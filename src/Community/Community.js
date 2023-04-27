@@ -38,7 +38,7 @@ function Community() {
                         Dive in to know more!
                       </h1>
                       <a
-                        href="/Community"
+                        href="https://naturalfarmingportalc.netlify.app/"
                         class="btn btn-primary btn-carousel py-sm-3 px-sm-4"
                       >
                         Join Our Community
@@ -62,7 +62,7 @@ function Community() {
                         Join a community of enthusiasts!
                       </h1>
                       <a
-                        href="Community"
+                        href="https://naturalfarmingportalc.netlify.app/"
                         class="btn btn-primary btn-carousel py-sm-3 px-sm-4"
                       >
                         Join Our Community
